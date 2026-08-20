@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "e99960ab-d23e-4bb7-8471-c2b82ab6b1b7",
+  "name": "slip",
+  "prefabId": "",
+  "x": 9,
+  "y": 16,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "27c20b46-6795-4f28-8fcf-485fb433aa28",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "7fa26d2d-142e-4e4a-bff7-818cf1d27bf4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

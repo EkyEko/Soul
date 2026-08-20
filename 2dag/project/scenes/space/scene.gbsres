@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "27c20b46-6795-4f28-8fcf-485fb433aa28",
+  "_index": 1,
+  "name": "Space",
+  "backgroundId": "40fda058-df90-4205-a239-fe77bce4fa79",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00400+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 144,
+  "y": 336,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
