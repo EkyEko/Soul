@@ -16,9 +16,33 @@
   "symbol": "scene_1",
   "x": 64,
   "y": 160.66666666666666,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "80d1b717-5a32-4b1e-a08d-00d1740fe498"
+            },
+            "id": "5c779423-81b5-4980-bd09-2767618348ae"
+          }
+        ],
+        "false": []
+      },
+      "id": "be48700b-8f55-46e5-8c67-16105a614a8e"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": ""
+  "playerSpriteSheetId": "8e537b80-52a8-41e2-b851-21afd2ee5c4b"
 }

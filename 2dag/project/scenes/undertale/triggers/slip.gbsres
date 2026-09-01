@@ -11,22 +11,76 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "27c20b46-6795-4f28-8fcf-485fb433aa28",
-        "x": {
-          "type": "number",
-          "value": 15
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "3"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 16
-        },
-        "direction": "up",
-        "fadeSpeed": "2",
+        "__collapseElse": false,
         "__collapse": false
       },
-      "id": "7fa26d2d-142e-4e4a-bff7-818cf1d27bf4"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "YOU MUST SPEAK\nWITH THE DOG."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "de25d8bb-94be-4912-b959-4a70bc05dbad"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
+            },
+            "id": "df22e7ba-2ced-40f5-bf00-5106ea853845"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "27c20b46-6795-4f28-8fcf-485fb433aa28",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "up",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "7fa26d2d-142e-4e4a-bff7-818cf1d27bf4"
+          }
+        ]
+      },
+      "id": "2e05aca5-2625-410c-a646-e79930a59bd0"
     }
   ],
   "leaveScript": [],
