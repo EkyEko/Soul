@@ -1,14 +1,14 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "a99c2d0d-f971-4874-833d-e77362b91857",
+  "startSceneId": "b20896a7-01e9-4629-8138-5490b5bbe17d",
   "startX": 8,
-  "startY": 8,
+  "startY": 2,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "down",
   "showCollisionExtraTiles": false,
   "showCollisionTileValues": false,
-  "collisionLayerOpacity": 50,
+  "collisionLayerOpacity": 20,
   "sgbEnabled": false,
   "customHead": "",
   "defaultBackgroundPaletteIds": [

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "baf2ce38-9879-41e3-a954-5d3ebea6611b",
+  "name": "Boat",
+  "symbol": "sprite_boat",
+  "states": [
+    {
+      "id": "1d7f2363-5705-4552-90f4-3de671941d08",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "69ca775a-dcff-4314-8323-6f7e358bd7b0",
+          "frames": [
+            {
+              "id": "bb49bd49-8076-481f-b8e7-8077e61c7119",
+              "tiles": [
+                {
+                  "id": "c044824b-f2ea-4fe7-834a-cb34b591f990",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "49364dd5-f893-47fa-a3f1-ce5313fadf82",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c3b6c6f7-92e2-4e31-9358-7ebd41e02d07",
+          "frames": [
+            {
+              "id": "792995e6-1b4d-4ac5-b65a-b11949bcba96",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "84dd7d2c-34cd-4003-a7fd-01e269dc7f95",
+          "frames": [
+            {
+              "id": "ec7031ef-db11-4fe1-a01b-b174012722a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "84d08247-c5ed-4d8b-82cd-27e6831322d9",
+          "frames": [
+            {
+              "id": "dd1a7a20-c655-4a3e-9ce0-ba627531d0cb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "316d1a47-9adb-41a4-9ff7-b648f081a8a7",
+          "frames": [
+            {
+              "id": "068c0cd7-a69e-4d4e-991d-3b846e155af3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2a7d15b9-e544-4aef-9ff4-388aa2079b7a",
+          "frames": [
+            {
+              "id": "5f41e329-7c00-4295-9bc6-8d56b71afc1f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b18efa5-d3ad-4ddb-af78-33f2ae2dee5b",
+          "frames": [
+            {
+              "id": "00756481-c76e-46bd-9bd7-ab89722b7f59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "12278522-b4ed-4617-8553-419f32641e5a",
+          "frames": [
+            {
+              "id": "f0431329-dff0-4ea4-8123-3655f6ea88f2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Boat.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "b980016bc18cece26f55e8c1174e61da0ace2440"
+}
