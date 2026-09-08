@@ -67,6 +67,11 @@
       "symbol": "var_pushediceblock"
     },
     {
+      "id": "13",
+      "name": "TalkedToSign",
+      "symbol": "var_talkedtosign"
+    },
+    {
       "id": "e99960ab-d23e-4bb7-8471-c2b82ab6b1b7__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
@@ -80,11 +85,6 @@
       "id": "c1466aa9-dfc1-40bf-bc12-fae09e4d0bb8__L0",
       "name": "TalkedToSign",
       "symbol": "var_talkedtosign_0"
-    },
-    {
-      "id": "13",
-      "name": "TalkedToSign",
-      "symbol": "var_talkedtosign"
     }
   ],
   "constants": []

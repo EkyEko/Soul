@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "503d7d95-fcf7-4def-b7af-8b81d67903dd",
+  "name": "LONGMF",
+  "symbol": "bg_longmf",
+  "tileColors": "",
+  "filename": "LONGMF.png",
+  "width": 200,
+  "height": 18,
+  "imageWidth": 1600,
+  "imageHeight": 144
+}
