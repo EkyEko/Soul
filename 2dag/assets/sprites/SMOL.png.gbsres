@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "52bc6ffa-adcf-490f-94db-1c42a2a1057f",
+  "name": "SMOL",
+  "symbol": "sprite_smol",
+  "states": [
+    {
+      "id": "8ad2eea3-70aa-48d8-a43e-d87d6b0dcfa9",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "339d9023-5b23-4ca5-8f3c-d3fd8c8ef4c1",
+          "frames": [
+            {
+              "id": "66b777a0-d736-4b27-bcf1-4933b480a29e",
+              "tiles": [
+                {
+                  "id": "fab7d11e-55f0-486b-91e6-0f5e9007bf0c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b01fdd13-b706-477a-a2b4-cfa7db0f613a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c56040de-3885-42a3-a30d-000c3413cbec",
+          "frames": [
+            {
+              "id": "cb2ad8fd-5342-463b-9fb0-d5fa628b9354",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9cdb1b0f-48bf-4fdc-b314-258e8135357c",
+          "frames": [
+            {
+              "id": "742847d5-ec99-4ca0-a4c3-462b10df89d8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c9947ecb-bb75-4b5a-844d-51a30bd79023",
+          "frames": [
+            {
+              "id": "04fc3f0b-69c4-4f78-aac9-59a15117ab61",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4aba1b5d-610c-4850-aec5-3a4720a537a9",
+          "frames": [
+            {
+              "id": "003dfdc7-4d09-461e-9e7a-16463a692375",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c84ea4a8-7a5d-4abd-9ff9-f00db8f78f15",
+          "frames": [
+            {
+              "id": "eccee755-9848-4c26-a4a0-f0ae976e406f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a507b25c-dd9c-42f2-9e80-30133f2fe6e5",
+          "frames": [
+            {
+              "id": "1521a472-5ac4-448c-8f32-4222e86f266e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a50f571c-0896-4abe-a63c-2034eefa6896",
+          "frames": [
+            {
+              "id": "dba39155-381c-42fb-9326-c9955baaea2c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "SMOL.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "84f729b9516c674aa0541cb7ce7fe9dbc9f7c3b6"
+}

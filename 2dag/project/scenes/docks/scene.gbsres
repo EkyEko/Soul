@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "7308c460-cd05-4ce8-9637-970bc0b89176",
   "_index": 4,
-  "name": "Scene 5",
+  "name": "Docks",
   "backgroundId": "503d7d95-fcf7-4def-b7af-8b81d67903dd",
   "tilesetId": "",
   "width": 200,
@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00e10+",
+  "collisions": "00738+0f2+0072+0f5+001a+0f4+00!0f190+00c6+0f2+0016a+0f2+0024+0f258+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 576,
@@ -20,10 +20,14 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "baf2ce38-9879-41e3-a954-5d3ebea6611b",
+  "playerSpriteSheetId": "14d3c40f-cec1-4c83-a84b-3686b4b02c29",
   "parallax": [
     {
-      "height": 3,
+      "height": 6,
+      "speed": 2
+    },
+    {
+      "height": 5,
       "speed": 1
     },
     {

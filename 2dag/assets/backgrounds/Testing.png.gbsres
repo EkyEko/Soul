@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cae12bc9-fed7-420f-85db-5c97bc137e27",
+  "name": "Testing",
+  "symbol": "bg_testing",
+  "tileColors": "",
+  "filename": "Testing.png",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288
+}

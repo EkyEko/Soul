@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "310b14b0-a389-4982-ae9c-3b473f1fb469",
+  "name": "Pedestal",
+  "symbol": "sprite_pedestal",
+  "states": [
+    {
+      "id": "82b6faff-62af-4d7b-b47b-042038d89019",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "03ca3fcf-9824-4b75-b4fe-33647e6ac130",
+          "frames": [
+            {
+              "id": "036ad103-4405-4d5f-961a-c69d20da5d10",
+              "tiles": [
+                {
+                  "id": "972517ae-dcaa-4504-b3d0-2d3bb14cdcbe",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "c0b03825-9661-4a86-ba42-cc61bf3c7c39",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "399a6015-074c-4c60-b52b-befe622c14b0",
+          "frames": [
+            {
+              "id": "c3cb3e2a-f4f6-4bdc-a0e2-7d2010c7cf78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "218f91b2-14f4-4700-916d-1e4d6357d1b7",
+          "frames": [
+            {
+              "id": "cfc5cfcb-ced5-4c6c-86e9-8fea4233e9a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "efcb60b6-1229-445c-98ce-24f1d32c6cc1",
+          "frames": [
+            {
+              "id": "f29ecc75-3855-436d-b1ba-89e747a59f07",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6548b1f6-906f-4dfc-a85f-52a8b0f0a05b",
+          "frames": [
+            {
+              "id": "bc1a528e-152e-4942-b9b7-cc7c07614999",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "11639ee6-1d8d-4a76-b51b-c9708d10d016",
+          "frames": [
+            {
+              "id": "fd0abaa9-4475-414f-b1a1-3518f65f17c9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19ee1c3d-6be5-475d-a87d-4f8c0014b1e4",
+          "frames": [
+            {
+              "id": "588e896d-e272-4e8c-a377-e0429aa95e59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a7119501-785d-4914-947a-d359f59898a5",
+          "frames": [
+            {
+              "id": "52af72d8-e273-4b29-962b-d23934780025",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Pedestal.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "e2a5b10d155abdc8b0c6a030492fc4bafb699ef2"
+}

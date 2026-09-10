@@ -1,0 +1,51 @@
+{
+  "_resourceType": "actor",
+  "id": "65077dd9-5f4b-4bf5-b6bd-8f410779026e",
+  "name": "Exit scan",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f8398de9-86b1-46d2-83c2-8da551a17a9f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_13",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "player"
+      },
+      "id": "81226cfa-8d70-400e-b9f4-f8476d1b0158"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1346eddd-b1e0-4a89-a0b5-5c31e72eb06b"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "72fe7d0f-39f2-4cf7-966f-73321f34794a"
+      },
+      "id": "b2244af9-1e3c-49f2-be0d-cf1b6bfab630"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 27,
+  "y": 1,
+  "_index": 4
+}

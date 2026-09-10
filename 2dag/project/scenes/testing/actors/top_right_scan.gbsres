@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "e3da8d3b-3376-4cb9-bd51-d23819e61211",
+  "name": "Top Right Scan",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f8398de9-86b1-46d2-83c2-8da551a17a9f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "854f35c5-3cca-4e6c-b6a5-038131cf4167"
+      },
+      "id": "2b25a611-6807-4e5a-83e1-cecbfe3ac2ce"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "72fe7d0f-39f2-4cf7-966f-73321f34794a"
+      },
+      "id": "20a8d77a-9818-403f-9d7a-ab8f0d343738"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e67c56a0-e327-4458-9627-bcba3aad9f24"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "8c185df8-da4e-4aca-83a4-9a722e414b33"
+      },
+      "id": "7fcc2c08-775a-4971-b363-d04aedd64938"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 38,
+  "y": 1,
+  "_index": 2
+}
