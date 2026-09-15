@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "efcc8794-7ce2-4302-be55-b5144b3fa0b7",
+  "name": "Buttons",
+  "symbol": "bg_buttons",
+  "tileColors": "",
+  "filename": "Buttons.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

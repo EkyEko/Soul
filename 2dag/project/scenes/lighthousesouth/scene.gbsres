@@ -1,0 +1,70 @@
+{
+  "_resourceType": "scene",
+  "id": "e5041fea-f3a7-4972-9934-9a332dc83d85",
+  "_index": 8,
+  "name": "LightHouseSouth",
+  "backgroundId": "f837a725-bcbd-4bef-9a85-4c1cda75e691",
+  "tilesetId": "",
+  "width": 20,
+  "height": 54,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e0+0f52+00a+0fa+00a+0fa+00a+0fa+00a+0fa+00e+0f6+00e+0f6+00e+0f6+00e+0f6+002+0f12+002+0f12+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2c+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 1200,
+  "y": 264,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "15"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CAMERA_SET_BOUNDS",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 36
+              },
+              "width": {
+                "type": "number",
+                "value": 20
+              },
+              "height": {
+                "type": "number",
+                "value": 18
+              }
+            },
+            "id": "4738ae8b-3ed2-4548-ab92-2b977c7c4eac"
+          }
+        ],
+        "false": []
+      },
+      "id": "9a08d80d-c54c-492a-8650-2a727bc49bdf"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "14d3c40f-cec1-4c83-a84b-3686b4b02c29"
+}

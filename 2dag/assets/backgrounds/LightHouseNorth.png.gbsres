@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3be915a7-5efc-4ba8-bf8b-8cd97e422004",
+  "name": "LightHouseNorth",
+  "symbol": "bg_lighthousenorth",
+  "tileColors": "",
+  "filename": "LightHouseNorth.png",
+  "width": 20,
+  "height": 54,
+  "imageWidth": 160,
+  "imageHeight": 432
+}

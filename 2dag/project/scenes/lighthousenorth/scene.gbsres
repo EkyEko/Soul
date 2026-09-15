@@ -1,0 +1,101 @@
+{
+  "_resourceType": "scene",
+  "id": "5bc0d9e7-e6ab-4a99-9ae8-de5eb919ecae",
+  "_index": 7,
+  "name": "LightHouseNorth",
+  "backgroundId": "3be915a7-5efc-4ba8-bf8b-8cd97e422004",
+  "tilesetId": "",
+  "width": 20,
+  "height": 54,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2c+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2c+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+002+0f64+00e+0f4+0010+0f4+0010+0f4+0010+0f2a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 1032,
+  "y": 264,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "15"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CAMERA_SET_BOUNDS",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 36
+              },
+              "width": {
+                "type": "number",
+                "value": 20
+              },
+              "height": {
+                "type": "number",
+                "value": 18
+              },
+              "__collapse": false
+            },
+            "id": "8c9d8a88-96a1-426a-a174-1eb3caafdf08"
+          }
+        ],
+        "false": []
+      },
+      "id": "2a2695a6-a913-42d4-bbf3-3393847fbc61"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "16"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4e57962c-4399-45eb-a796-15359659803e"
+            },
+            "id": "bfb42d82-892c-46ac-9ce3-7413cc661ca9"
+          }
+        ],
+        "false": []
+      },
+      "id": "7c99c29b-568b-4e0d-943e-da214ad4e108"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "14d3c40f-cec1-4c83-a84b-3686b4b02c29"
+}

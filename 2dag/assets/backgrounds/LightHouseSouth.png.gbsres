@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f837a725-bcbd-4bef-9a85-4c1cda75e691",
+  "name": "LightHouseSouth",
+  "symbol": "bg_lighthousesouth",
+  "tileColors": "",
+  "filename": "LightHouseSouth.png",
+  "width": 20,
+  "height": 54,
+  "imageWidth": 160,
+  "imageHeight": 432
+}
