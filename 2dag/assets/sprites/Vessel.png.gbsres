@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "984c6cc3-2c50-4543-a369-05d337a8ae2a",
+  "name": "Vessel",
+  "symbol": "sprite_vessel",
+  "states": [
+    {
+      "id": "3c988544-3baf-451a-8dd8-14d98d71fa3a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "effdbab5-5966-4c19-882a-9fd1ab968ebc",
+          "frames": [
+            {
+              "id": "afd7e7ac-66c7-4ae0-aeb1-2a71cbc8b147",
+              "tiles": [
+                {
+                  "id": "51521d0d-102a-49d7-9eff-e74cc2f9d497",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ba2dc463-97e5-4090-87eb-b073c3ea2e99",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02040a97-df0f-4f7e-b81b-3f1f41ab0aa8",
+          "frames": [
+            {
+              "id": "ad49a28c-697a-4b82-947b-009d8eea4809",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4842a44e-81dc-4d99-b195-0c1ba93a6808",
+          "frames": [
+            {
+              "id": "42489ae4-bca2-4b63-8248-8bb856042982",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10598a45-f02b-481b-b467-2614bfa91c15",
+          "frames": [
+            {
+              "id": "d2b8737f-ed47-4745-a6d5-c4d697731d48",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "651b5604-bf15-4d86-b96f-312ea5c17bb1",
+          "frames": [
+            {
+              "id": "d02d99c3-8ac6-47dc-b460-e5d23058c915",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "87e17270-b37f-4c41-b2d2-40c0d41ba863",
+          "frames": [
+            {
+              "id": "36424f98-3e7c-4e73-9088-eb3d8a26097f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e2cec6d1-f17f-4c61-abbd-334acc3295cb",
+          "frames": [
+            {
+              "id": "404144cc-85e3-4117-886e-fffeedb265fd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "80530da6-f5e6-4413-b57a-0ee12d557857",
+          "frames": [
+            {
+              "id": "d54e1168-a53f-47e3-aab1-bc2da48cf2dd",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Vessel.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "d4e9b67fe2d0db99827244344012eba77b7d6cbd"
+}

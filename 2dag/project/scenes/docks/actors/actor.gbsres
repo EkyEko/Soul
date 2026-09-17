@@ -96,7 +96,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "The ocean holds\nthe body, soul,\nand mind."
+          "The light house\nholds a vessel"
         ],
         "__section": "text",
         "avatarId": "",
@@ -121,7 +121,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "The mind is found\nsomewhere bright"
+          "Take it for\nyourself"
         ],
         "__section": "text",
         "avatarId": "",

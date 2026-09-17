@@ -77,6 +77,16 @@
       "symbol": "var_questtaken"
     },
     {
+      "id": "15",
+      "name": "FloorLevel",
+      "symbol": "var_floorlevel"
+    },
+    {
+      "id": "16",
+      "name": "Key",
+      "symbol": "var_key_1"
+    },
+    {
       "id": "e99960ab-d23e-4bb7-8471-c2b82ab6b1b7__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
@@ -92,11 +102,6 @@
       "symbol": "var_talkedtosign_0"
     },
     {
-      "id": "15",
-      "name": "FloorLevel",
-      "symbol": "var_floorlevel"
-    },
-    {
       "id": "4e57962c-4399-45eb-a796-15359659803e__L0",
       "name": "Key",
       "symbol": "var_key"
@@ -107,9 +112,9 @@
       "symbol": "var_key_0"
     },
     {
-      "id": "16",
-      "name": "Key",
-      "symbol": "var_key_1"
+      "id": "9cdf7a10-4376-46c8-bb1a-fa98e10d45ea__L0",
+      "name": "TakeVessel",
+      "symbol": "var_takevessel"
     }
   ],
   "constants": []

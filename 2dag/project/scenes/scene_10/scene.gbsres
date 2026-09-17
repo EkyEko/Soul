@@ -16,7 +16,80 @@
   "symbol": "scene_10",
   "x": 1376,
   "y": 424,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "ae0bbfa9-d96a-4d75-b7fb-833a8311a36b",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": -5
+        },
+        "width": {
+          "type": "number",
+          "value": 26
+        },
+        "height": {
+          "type": "number",
+          "value": 26
+        },
+        "__collapse": true
+      },
+      "id": "fe5f81a9-680c-4fa9-82f9-7fd824aa7fad"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "0216dd80-2dca-4003-9280-05c842cad74b",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": -5
+        },
+        "width": {
+          "type": "number",
+          "value": 26
+        },
+        "height": {
+          "type": "number",
+          "value": 26
+        },
+        "__collapse": true
+      },
+      "id": "3023189c-607a-42bd-a3b2-1c9ff00d09b4"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "e1040915-2cac-47ac-aa43-86a1378a4953",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": -5
+        },
+        "width": {
+          "type": "number",
+          "value": 26
+        },
+        "height": {
+          "type": "number",
+          "value": 26
+        },
+        "__collapse": true
+      },
+      "id": "7f7e5ffd-38fe-42eb-8091-83cd65e3692b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

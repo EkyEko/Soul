@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "dc977829-3a56-4b93-b62b-1a63fd40d23d",
+  "name": "TopOfLightHouse",
+  "symbol": "bg_topoflighthouse",
+  "tileColors": "",
+  "filename": "TopOfLightHouse.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
