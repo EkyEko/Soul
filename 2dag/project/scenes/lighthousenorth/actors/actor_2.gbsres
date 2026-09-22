@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "4992d751-760b-4f07-8e4b-66f5b70c0bde",
+  "id": "d2ff59eb-181f-4735-a935-b593a4f7f022",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -12,27 +12,75 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "1",
+  "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_15",
+  "symbol": "actor_17",
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "5bc0d9e7-e6ab-4a99-9ae8-de5eb919ecae",
-        "x": {
-          "type": "number",
-          "value": 2
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "16"
+          },
+          "valueB": {
+            "type": "true"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 41
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "ff20272f-23ec-4e16-be65-2d5387d57daa"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e5041fea-f3a7-4972-9934-9a332dc83d85",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 41
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "60ba3056-009d-49de-8f67-a7b306e98a03"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No key..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "19526882-0502-4b05-a92c-d7b283d51c44"
+          }
+        ]
+      },
+      "id": "dbecee9f-2b52-48ca-8f47-b1ec0afc40b8"
     }
   ],
   "startScript": [],
@@ -41,7 +89,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 2,
-  "y": 49,
+  "x": 14,
+  "y": 41,
   "_index": 1
 }

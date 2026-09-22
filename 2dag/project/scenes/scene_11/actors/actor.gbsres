@@ -172,23 +172,6 @@
               }
             },
             "id": "b27afb96-54fb-4bb1-94c7-b082161d3f0e"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "ff9624d3-8d57-4a62-8096-a1059de906d1",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "fdff8c53-d294-449a-b2d1-9f4c689dad9a"
           }
         ],
         "false": []
@@ -272,23 +255,6 @@
               }
             },
             "id": "1eccc12e-c17d-4601-b287-ccef246f1117"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "ff9624d3-8d57-4a62-8096-a1059de906d1",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "938a05a1-8327-4767-be31-5250fceb137f"
           }
         ],
         "false": []

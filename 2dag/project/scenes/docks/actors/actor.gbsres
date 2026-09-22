@@ -23,10 +23,10 @@
         "text": [
           "A pedestal Sits\nlonely among the \nwaves of the sea.."
         ],
-        "__section": "text",
+        "__section": "layout",
         "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
+        "minHeight": 6,
+        "maxHeight": 6,
         "textX": 1,
         "textY": 1,
         "textHeight": 5,
