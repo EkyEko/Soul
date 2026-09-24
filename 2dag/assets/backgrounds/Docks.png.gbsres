@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c6fdc7c1-b8de-4ffb-8aa5-ec2b9e1ed5b1",
+  "name": "Docks",
+  "symbol": "bg_docks",
+  "tileColors": "",
+  "filename": "Docks.png",
+  "width": 200,
+  "height": 18,
+  "imageWidth": 1600,
+  "imageHeight": 144
+}

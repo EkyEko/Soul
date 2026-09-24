@@ -14,9 +14,39 @@
   "collisions": "00738+0f2+0072+0f5+001a+0f4+00!0f190+00c6+0f2+0016a+0f2+0024+0f258+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 576,
-  "y": 40,
-  "script": [],
+  "x": 1568,
+  "y": 88,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "17"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "984c6cc3-2c50-4543-a369-05d337a8ae2a"
+            },
+            "id": "964cd252-0e3c-4b38-83bb-5e1a29a02acd"
+          }
+        ],
+        "false": []
+      },
+      "id": "5cde8bf2-3e43-4a91-9ceb-2864ceaded52"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

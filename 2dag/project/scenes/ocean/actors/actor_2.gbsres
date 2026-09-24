@@ -16,26 +16,7 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_5",
-  "script": [
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "e2881b81-d210-4d87-836c-dbc813161c83",
-        "x": {
-          "type": "number",
-          "value": 9
-        },
-        "y": {
-          "type": "number",
-          "value": 13
-        },
-        "direction": "up",
-        "fadeSpeed": "2",
-        "__collapse": false
-      },
-      "id": "3e23f35d-8a1b-49d2-b38a-16383601682b"
-    }
-  ],
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

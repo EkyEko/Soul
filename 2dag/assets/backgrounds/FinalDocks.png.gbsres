@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "36a69d7b-a2a5-4632-a1d8-2f13718e04f5",
+  "name": "FinalDocks",
+  "symbol": "bg_finaldocks",
+  "tileColors": "",
+  "filename": "FinalDocks.png",
+  "width": 200,
+  "height": 18,
+  "imageWidth": 1600,
+  "imageHeight": 144
+}

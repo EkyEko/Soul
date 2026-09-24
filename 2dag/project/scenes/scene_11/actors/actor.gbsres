@@ -18,6 +18,17 @@
   "symbol": "actor_20",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "14",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "dbf246d6-3d5e-4e4a-b63b-72654eeffe84"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -91,16 +102,18 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "05373e17-1e3a-4485-8c99-2addd8924822"
     },
     {
       "command": "EVENT_CHOICE",
       "args": {
-        "variable": "L0",
+        "variable": "17",
         "trueText": "Take it",
-        "falseText": "Don't take it"
+        "falseText": "Don't take it",
+        "__collapse": true
       },
       "id": "7f7da28c-0ab8-4348-8e37-4c67c5a4f839"
     },
@@ -109,10 +122,10 @@
       "args": {
         "condition": {
           "type": "variable",
-          "value": "L0"
+          "value": "17"
         },
-        "__collapseElse": true,
-        "__collapse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -120,7 +133,6 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "AAAAAAAA AYDAWUDH\nAWIDAUIDAWDMAU\nAIWDJAUIWJODADWAOA",
                 "AAAAAAAA AYDAWUDH\nAWIDAUIDAWDMAU\nAIWDJAUIWJODADWAOA",
                 "AAAAAAAA AYDAWUDH\nAWIDAUIDAWDMAU\nAIWDJAUIWJODADWAOA",
                 "AAAAAAAA AYDAWUDH\nAWIDAUIDAWDMAU\nAIWDJAUIWJODADWAOA"
@@ -164,7 +176,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 5
+                "value": 2
               },
               "frames": {
                 "type": "number",
@@ -172,6 +184,23 @@
               }
             },
             "id": "b27afb96-54fb-4bb1-94c7-b082161d3f0e"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b20896a7-01e9-4629-8138-5490b5bbe17d",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b4bfc2c5-ac4c-4d68-b2fb-18379befba51"
           }
         ],
         "false": []
@@ -185,10 +214,11 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "L0"
+            "value": "17"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -247,7 +277,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 5
+                "value": 0
               },
               "frames": {
                 "type": "number",
@@ -255,6 +285,47 @@
               }
             },
             "id": "1eccc12e-c17d-4601-b287-ccef246f1117"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Would you like\nsome tea?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b3771f11-41e9-4e9a-a54c-d5cd21a7e168"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+            },
+            "id": "e627295f-d5cb-4775-a3fa-51c9a2928f94"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+            },
+            "id": "e5de8f73-2e2a-484b-bf57-3457a5dc3634"
           }
         ],
         "false": []

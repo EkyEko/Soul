@@ -21,7 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "shit....how do i \nget over this..."
+          "Shit....How do I\nget over this..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -46,7 +46,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "wait i can fly"
+          "WAIT.\nI can fly."
         ],
         "__section": "text",
         "avatarId": "",
