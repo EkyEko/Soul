@@ -125,7 +125,7 @@
           "value": "17"
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -188,14 +188,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "b20896a7-01e9-4629-8138-5490b5bbe17d",
+              "sceneId": "4d6632ec-80e7-4291-9ef4-eb277cdd8fba",
               "x": {
                 "type": "number",
-                "value": 23
+                "value": 8
               },
               "y": {
                 "type": "number",
-                "value": 31
+                "value": 10
               },
               "direction": "",
               "fadeSpeed": "2"
@@ -218,7 +218,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -326,6 +326,37 @@
               "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
             },
             "id": "e5de8f73-2e2a-484b-bf57-3457a5dc3634"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "1a055229-f90f-47b4-b2a7-1adc47a13958"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "d256ed0d-9f07-41ed-b5ee-18fa2faf82ba",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "2aac61f6-f09a-4b64-83dc-b3bc30a3657d"
           }
         ],
         "false": []
@@ -340,6 +371,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 2,
-  "y": 16,
+  "y": 15,
   "_index": 0
 }

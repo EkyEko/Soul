@@ -87,6 +87,11 @@
       "symbol": "var_key_1"
     },
     {
+      "id": "17",
+      "name": "TakeVessel",
+      "symbol": "var_takevessel_0"
+    },
+    {
       "id": "e99960ab-d23e-4bb7-8471-c2b82ab6b1b7__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
@@ -115,11 +120,6 @@
       "id": "9cdf7a10-4376-46c8-bb1a-fa98e10d45ea__L0",
       "name": "TakeVessel",
       "symbol": "var_takevessel_1"
-    },
-    {
-      "id": "17",
-      "name": "TakeVessel",
-      "symbol": "var_takevessel_0"
     }
   ],
   "constants": []

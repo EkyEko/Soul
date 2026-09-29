@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "67cd10f1-0f79-4fef-8602-4976bd4828b8",
+  "name": "BodyEnd",
+  "symbol": "bg_bodyend",
+  "tileColors": "",
+  "filename": "BodyEnd.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
