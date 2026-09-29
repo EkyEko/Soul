@@ -111,32 +111,7 @@
             "id": "efc4a79b-ead1-4612-99b4-af76266d73c1"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "86ce8f8a-e02f-41f7-90e7-d757574cfbbb",
-              "x": {
-                "type": "number",
-                "value": 197
-              },
-              "y": {
-                "type": "number",
-                "value": 13
-              },
-              "direction": "left",
-              "fadeSpeed": "2"
-            },
-            "id": "cd132498-cdd0-4452-be82-b9b030f9ab5f"
-          },
-          {
-            "command": "EVENT_PLAYER_SET_SPRITE",
-            "args": {
-              "spriteSheetId": "984c6cc3-2c50-4543-a369-05d337a8ae2a"
-            },
-            "id": "e2f6478f-ae3b-4f72-98c8-67f50d24511a"
-          }
-        ]
+        "false": []
       },
       "id": "3d431f05-2784-4cc8-94ef-34b897b3aeab"
     }
